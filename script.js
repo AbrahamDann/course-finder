@@ -200,5 +200,5 @@ function showSuggestions(suggestions) {
   wrapper.className = "table-wrapper";
   wrapper.appendChild(table);
   suggestionsContainer.appendChild(wrapper);
+  new Tablesort(table);
 }
-new Tablesort(document.querySelector('table'));

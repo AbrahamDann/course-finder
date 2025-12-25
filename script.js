@@ -114,10 +114,10 @@ function showSuggestions(suggestions) {
 
   let thead = document.createElement("thead");
   thead.innerHTML = `<tr>
-        <th>Term</th>
-        <th>Course</th>
-        <th>Name</th>
-        <th>Meth</th>
+        <th>Term⇅</th>
+        <th>Course⇅</th>
+        <th>Name⇅</th>
+        <th>Meth⇅</th>
         <th>Succ%</th>
         <th>Compl%</th>
         <th>A</th>
@@ -129,7 +129,7 @@ function showSuggestions(suggestions) {
         <th>INP</th>
         <th>W</th>
         <th>Total</th>
-        <th>A%</th>
+        <th>A%⇅</th>
     </tr>`;
   table.appendChild(thead);
 

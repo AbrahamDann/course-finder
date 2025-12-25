@@ -201,3 +201,4 @@ function showSuggestions(suggestions) {
   wrapper.appendChild(table);
   suggestionsContainer.appendChild(wrapper);
 }
+new Tablesort(document.querySelector('table'));

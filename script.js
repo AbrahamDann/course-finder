@@ -11,6 +11,7 @@ let urls = [
   "data/fall2025.txt",
   "data/summer2025.txt",
   "data/winter2025.txt",
+  "data/spring2025.txt",
 ];
 
 Promise.all(
